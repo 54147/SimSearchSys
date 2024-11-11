@@ -1,0 +1,9 @@
+services:
+
+  api:
+    build: ./
+    environment:
+      pinecone_api_key: ${pinecone_api_key}
+      DEBUG: "False"
+    ports:
+      - 9000:9000
