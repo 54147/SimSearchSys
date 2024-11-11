@@ -19,6 +19,15 @@ export $(xargs <.env)
 ```
 
 The initial upload of the PDF file will be done via jupyter notebook, hence it's good to have a virtualenv to work within.
+For example:
+```
+virtualenv -p /usr/bin/python3.10 .venv 
+```
+and then
+```
+source .venv/bin/activate
+```
+
 Install requirements to your virtualenv:
 ```
 pip install -r requirements_local.txt 
