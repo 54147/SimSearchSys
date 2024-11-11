@@ -2,7 +2,7 @@
 # $ git config --global mergetool.keepBackup false
 *.orig
 
-.myenv
+.env
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
