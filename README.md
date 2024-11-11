@@ -9,7 +9,9 @@ based on a query input.
 
 Since the Pinecone is used you have to have a [Pinecone](https://app.pinecone.io) account.
 You also need a Pinecone API key, which can be [generated here](https://app.pinecone.io/organizations/-/keys) in `API keys` section.
-Once generated please add Pinecone API key to `.env` file in the root dir.
+
+! **Once generated please add Pinecone API key to `.env` file in the root dir.**
+
 ```
 pinecone_api_key="INSERT_YOUR_PINECONE_API_KEY_HERE"
 ```
