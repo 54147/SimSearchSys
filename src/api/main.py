@@ -15,12 +15,3 @@ async def search(query: str, top_k: int = 3):
     except Exception as e:
         logging.error(f"Error searching in Pinecone: {e}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
-
-
-           
-
-
-
-
-
-
